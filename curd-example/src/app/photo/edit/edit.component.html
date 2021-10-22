@@ -1,0 +1,60 @@
+<div class="container">
+    <h1>Edit Photo</h1>
+    <form [formGroup] = "form" (ngSubmit) = "submit()">
+        <div class="form-group">
+            <label for="albumId">Album Id</label>
+            <input formControlName="albumId" id="albumId" type="number" class="form-control"> 
+            <div *ngIf="formControlls.albumId.touched && formControlls.albumId.invalid" class="alert alert-danger">
+                <div *ngIf="formControlls.albumId.errors?.required">
+                    Album id is Required
+                </div>
+                <div *ngIf="formControlls.albumId.errors?.min">Album id must Greater than 5</div>
+            </div>
+        </div>
+       
+
+        <div class="form-group">
+            <label for="id">Id</label>
+            <input formControlName="id" id="id" type="number" class="form-control"> 
+            <div *ngIf="formControlls.id.touched && formControlls.id.invalid" class="alert alert-danger">
+                <div *ngIf="formControlls.id.errors?.required">
+                    id is Required
+                </div>
+                <div *ngIf="formControlls.id.errors?.min">Id must Greater than 5</div>
+               </div>
+        </div>
+
+        <div class="form-group">
+            <label for="title">Title</label>
+            <input formControlName="title" id="title" type="text" class="form-control"> 
+            <div *ngIf="formControlls.title.touched && formControlls.title.invalid" class="alert alert-danger">
+                <div *ngIf="formControlls.title.errors?.required">
+                   Title is Required
+                </div>
+                <div *ngIf="formControlls.title.errors?.minlength">Title must be Greater Than 5 Char</div>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="url">URL</label>
+            <input formControlName="url" id="url" type="text" class="form-control"> 
+            <div *ngIf="formControlls.url.touched && formControlls.url.invalid" class="alert alert-danger">
+                <div *ngIf="formControlls.url.errors?.required">
+                   URL is Required
+                </div>
+                <div *ngIf="formControlls.url.errors?.minlength">Url must be Greater Than 5 Char</div>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="thumbnailUrl">Thumbnail Url</label>
+            <input formControlName="thumbnailUrl" id="thumbnailUrl" type="text" class="form-control"> 
+            <div *ngIf="formControlls.thumbnailUrl.touched && formControlls.thumbnailUrl.invalid" class="alert alert-danger">
+                <div *ngIf="formControlls.thumbnailUrl.errors?.required">
+                    Thumbnail Url is Required
+                </div>
+                <div *ngIf="formControlls.thumbnailUrl.errors?.minlength">Thumbnail Url must be Greater Than 5 Char</div>
+            </div>
+        </div>
+        <button class="btn btn-primary" type="submit" [disabled]="!form.valid">Submit</button>    </form>
+</div>

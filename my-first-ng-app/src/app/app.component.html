@@ -1,0 +1,26 @@
+<div class="container">
+  <div *ngFor="let car of cars" [ngClass]="{
+    'alert-primary': car === 'MG Hector',
+    'alert-secondary': car === 'KIA',
+    'alert-success': car === 'Maruti Suzuki',
+    'alert-danger': car === 'TATA',
+    'alert-warning': car === 'Creta'
+  }">{{ car }}
+  </div>
+</div>
+<div [ngStyle]="{'color': color,'font-size':size}">
+  Anand Sonawane String
+</div>
+<input type="text" [(ngModel)] = "color" placeholder="Enter color Name">
+<input type="number" [(ngModel)] = "size" placeholder="Enter Size">
+
+<hr>
+<button (click)="show=!show">
+  {{ show?'Hide' : 'Show' }}
+</button>
+
+<div *ngIf="show" >Section to Display</div>
+
+<div>
+  <app-greet></app-greet>
+</div>

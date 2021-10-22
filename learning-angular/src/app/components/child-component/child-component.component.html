@@ -1,0 +1,7 @@
+<p>
+    child Variable From Parent: {{childVariableInput}}
+</p>
+
+<label for="item-input">Add an item:</label>
+<input type="text" #newItem>
+<button (click)="setParentVariable(newItem.value)">Set parent Variable</button>
