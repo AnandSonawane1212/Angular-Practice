@@ -1,0 +1,20 @@
+<div [hidden]="!examFlag" *ngFor="let question of questions | async">
+<div class="card ">
+<div class="card text-center">
+    <div class="card-body">
+        {{"Que. "+question.id}}{{" "+"  "+question.question}}
+        <ul class="list-group">
+            <li class="list-group-item"><button (click)="optionClick(question.option1,question)" type="button" class="btn btn-outline-secondary">{{question.option1}}</button></li>
+            <li class="list-group-item"><button (click)="optionClick(question.option2,question)" type="button" class="btn btn-outline-secondary">{{question.option2}}</button></li>
+            <li class="list-group-item"><button (click)="optionClick(question.option3,question)" type="button" class="btn btn-outline-secondary">{{question.option3}}</button></li>
+            <li class="list-group-item"><button (click)="optionClick(question.option4,question)" type="button" class="btn btn-outline-secondary">{{question.option4}}</button></li>
+          </ul>
+    </div>
+    </div>
+</div>  
+</div>
+<div class="modal-footer" style="background-color: white;">
+    <button type="button"[hidden]="!examFlag"  (click)="submit()" class="btn btn-primary mr-auto">Submit</button>
+</div>
+<app-review-and-marks [hidden]="!marksFlag" [Result]="marks"></app-review-and-marks>
+

@@ -1,0 +1,57 @@
+{
+  "blogs": [
+    {
+      "id": 1,
+      "title": "Comp Engineering",
+      "information": "Computer Engineering is Branch which used to Study Computer and Technology Related Field",
+      "comments": [
+        "Intresting Branch",
+        "Very Good Scope",
+        "Intresting Branch",
+        "Intresting Branch"
+      ],
+      "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJXtoqKL92pMvay3qwQOzXwarLJkk5TjZwdg&usqp=CAU",
+      "authorname": "Anand Sonawane"
+    },
+    {
+      "id": 3,
+      "title": "ENTC Engineering",
+      "information": "Computer Engineering is Branch which used to Study Computer and Technology Related Field",
+      "comments": [
+        "Intresting Branch",
+        "Very Good Scope"
+      ],
+      "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJXtoqKL92pMvay3qwQOzXwarLJkk5TjZwdg&usqp=CAU",
+      "authorname": "Anand Sonawane"
+    },
+    {
+      "id": 4,
+      "title": "Comp Engineering",
+      "information": "Computer Engineering is Branch which used to Study Computer and Technology Related Field",
+      "comments": [
+        "Intresting Branch",
+        "Very Good Scope"
+      ],
+      "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJXtoqKL92pMvay3qwQOzXwarLJkk5TjZwdg&usqp=CAU",
+      "authorname": "Anand Sonawane"
+    },
+    {
+      "id": 5,
+      "title": "Comp Engineering",
+      "information": "Computer Engineering is Branch which used to Study Computer and Technology Related Field",
+      "comments": [
+        "Intresting Branch",
+        "Very Good Scope"
+      ],
+      "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJXtoqKL92pMvay3qwQOzXwarLJkk5TjZwdg&usqp=CAU",
+      "authorname": "Anand Sonawane"
+    },
+    {
+      "title": "Mechanical Engineering",
+      "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYBeE907G6k56oTmR0ISX1VsIe8x_OCtLHQQ&usqp=CAU",
+      "information": "Mechanical engineering is the study, design, development, construction, and testing of mechanical.",
+      "authorname": "Anand Sonawane",
+      "id": 6
+    }
+  ]
+}

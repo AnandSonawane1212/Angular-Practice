@@ -1,0 +1,11 @@
+
+<div class="row" >
+    <div class="col-md-3 col-sm-6 item" *ngFor="let b of blogs | async">
+        <div class="card item-card card-block">
+        <h1 class="item-card-title text-right"><i class="material-icons">{{b.title}}</i></h1>
+        <img src="{{b.photo}}" alt="Photo of sunset">
+            <h5 class="card-title  mt-3 mb-3">{{b.authorname}}</h5>
+            <p class="card-text">{{b.information}}</p> 
+        </div>
+    </div>
+</div>    

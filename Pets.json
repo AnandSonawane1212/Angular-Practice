@@ -1,0 +1,62 @@
+{
+  "pets": [
+    {
+      "id": 1,
+      "name": "Purrsloud",
+      "species": "Cat",
+      "favFoods": [
+        "wet food",
+        "dry food"
+      ],
+      "birthYear": 2016,
+      "photo": "https://learnwebcode.github.io/json-example/images/cat-2.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Barksalot",
+      "species": "Dog",
+      "birthYear": 2008,
+      "photo": "https://learnwebcode.github.io/json-example/images/dog-1.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Meowsalot",
+      "species": "Cat",
+      "favFoods": [
+        "tuna",
+        "catnip",
+        "celery"
+      ],
+      "birthYear": 2012,
+      "photo": "https://learnwebcode.github.io/json-example/images/cat-1.jpg"
+    },
+    {
+      "name": "CHARLIE",
+      "species": "Dog",
+      "birthYear": 2019,
+      "favFoods": [
+        "chikan"
+      ],
+      "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhMIaC0rBtwj6nGUEHB0EJkYPj-jx6wzOfZg&usqp=CAU",
+      "id": 4
+    },
+    {
+      "name": "MILO",
+      "species": "Dog",
+      "birthYear": 2021,
+      "favFoods": "chikan, Butter",
+      "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjXG98bxlXwNbxJPvf9eNAMz2D4EePf21yvw&usqp=CAU",
+      "id": 5
+    },
+    {
+      "name": "BAILEY",
+      "species": "Dog",
+      "birthYear": 2020,
+      "favFoods": [
+        "chikan, Butter"
+      ],
+      "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZNF05Ymlsd3de84JpDW08jpblIY5a7GLu5w&usqp=CAU",
+      "id": 6
+    }
+  ]
+}

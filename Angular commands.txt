@@ -1,0 +1,12 @@
+json server strating command npx json-server --watch file_name.json
+
+angular cli start command :- ng serve
+
+create new Project :- ng new project-name
+
+create new component :- ng generate component component-name
+create new service :- ng generate service service-name
+
+install bootstrap in project :-  npm install bootstrap
+
+add bootstrap to style.css file :- @import "~bootstrap/dist/css/bootstrap.css";
